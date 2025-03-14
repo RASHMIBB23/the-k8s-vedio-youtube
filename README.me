@@ -1,1 +1,29 @@
 hi guys,this the day to day series in which i will be sharing the daily blog posts about the kubernates in which the i can able to understand the things
+starting with the first install all th dependencies which is required for the kubernates 
+2) install  the minicube
+3)see wheather you have installed the cluster for both worker node and the cluster node
+4)now dont get diverted 
+5)now learn how to create the kubernate cluster its same like the docker imahe hub how to create it and delte it 
+6)before that make sure that kubernates i sinside the docker.
+7)after that 
+--how to create the cluster.
+kind create cluster --image kindest/node:v1.29.4 --name shetty
+(it will show that kind has not been installed)
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.20.0/kind-linux-amd64
+
+8)next step
+chod +x ./kind 
+9)sudo mv ./kind /usr/local/bin/kind
+10)again create the cluster
+kind create cluster --image kindest/node:v1.29.4 --name shetty
+
+11)kubectl get nodes
+12)now create the yml file.
+13) vi kind-config.yaml 
+ and then paste the kubernates file thing
+14) kubectl get nodes
+15)now it will show the evry nodes.
+16)how to change the cluster which are having
+17)first write the file 
+18) crwte the cluster 
+19)save the file
