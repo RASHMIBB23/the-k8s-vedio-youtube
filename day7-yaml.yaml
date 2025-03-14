@@ -1,0 +1,15 @@
+#this is  comment
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ngnix-pod
+  labels:
+    env: demo
+    type: frontend
+spec:
+  containers:
+   - name: nginx-container
+     image: ngnix
+     ports:
+      - containerPort: 80

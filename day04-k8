@@ -1,0 +1,54 @@
+#documenting the kubernatescontents kind of the thing
+BASICS OF kubernates
+//what is kubernates 
+1) kubernate sarchitecture
+key componetns
+#API server 
+Controll mnager
+scheduler
+etcd 
+kubelet
+kube proxy
+
+
+2)key kubernates objects
+*pods
+*replicasets
+*deplymnet
+*namespaces
+*labels &selectors
+
+'3)core concepts
+  *pods and multi-container pods*
+  *services and networking
+  *clusterIP,Nodeport,loadbalancer,externalname
+  ))configMaps &secrets
+  *volumes &persistent storage
+  *emptydir,hostpath,persistenyvoume(PV,),PERsuistenyvolumechaim(PVXC,strorageclasses
+
+
+  3))deplyments and scaling
+  *deployments 
+  rolling updates and rolling startergy
+  *horizontal pod autoscaler(HPA)
+  *Vertical pod Autoscaler(VPA)
+  *cluster architecture
+
+  4))NETWORK &SERVICE DISCOVERY
+  *kubernates DNS &coreDNS
+  *ingress controllers
+  NGNIX ingness'
+  *traefik
+  *network policies
+  *services mesh(istio,linkerd)
+
+  5))security in kubernates*role -based accesee control(RBAC)
+  service accounts
+  *network policiespod securtity policies
+  *securig secrets Mangement'
+ *kubernets security best prsctices
+
+ 6)) advance kubernatescontents*stateful(for stateful applications)
+ *daemon sets(runninhone pod per node)
+ *statefuls(for steful application)
+ 
