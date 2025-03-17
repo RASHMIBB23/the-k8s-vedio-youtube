@@ -13,3 +13,5 @@ spec:
      image: ngnix
      ports:
       - containerPort: 80
+      the actuall thing is to aggresively code the actuall things ijn this manner 
+      
